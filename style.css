@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: url(./images/bg-intro-desktop.png)hsl(0, 100%, 74%);
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        'article main'
+        'footer footer';
+}
+
+article {
+    grid-area: article;
+    width: 720px;
+}
+
+h1 {
+    font-size: 3.0em;
+    margin: 285px 50px 0px 150px;
+}
+
+h2 {
+    font-size: 1.0em;
+    margin: 10px 60px 0px 150px;
+    font-weight: normal;
+}
+
+main {
+    grid-area: main;
+    width: 720px;
+    margin: 120px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-purple {
+    height: 50px;
+    width: 540px;
+    background: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 8px 0px hsl(0, 59%, 64%);
+    margin-bottom: 30px;
+    font-size: 1.0em;
+}
+
+form {
+    width: 440px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 8px 0px hsl(0, 59%, 64%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 50px;
+}
+
+input {
+    height: 50px;
+    width: 410px;
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+    margin: 20px 0px 0px;
+    padding-left: 25px;
+    font-weight: bold;
+    color: hsl(249, 10%, 26%);
+}
+
+i {
+    position: absolute;
+    color: hsl(0, 59%, 64%);
+    font-size: 1.5em;
+    right: -30px;
+    padding-top: 35px;
+}
+
+.button-green {
+    height: 65px;
+    width: 440px;
+    margin: 20px 0px 0px;
+    background: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px hsl(154, 51%, 46%);
+    border: none;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+p {
+    color: hsl(246, 25%, 77%);
+    font-size: 0.7em;
+    text-align: center;
+}
+
+p>a {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    grid-area: footer;
+    height: 10px;
+}
+
+.attribution {
+    color: black;
+    margin: 10px 0px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.error {
+    display: none;
+    width: 430px;
+    color: hsl(0, 100%, 74%);
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: right;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article {
+        width: 100vw;
+    }
+
+    h1 {
+        margin: 50px 0px 0px 100px;
+    }
+
+    h2 {
+        margin: 0px 70px;
+    }
+
+    main {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+}
