@@ -13,12 +13,12 @@ function validateFirstName() {
     if (firstName.value == "") {
         firstName.style.border = "2px solid hsl(0, 59%, 64%)";
         document.getElementById('error-first-name').style.display = "block";
-        document.getElementById("alert-icon-first-name").style.display = "block";
+        document.getElementById("alert-icon-first-name").style.color = "hsl(0, 100%, 74%)";
 
     } else {
         firstName.style.border = "1px solid hsl(246, 25%, 77%)";
         document.getElementById('error-first-name').style.display = "none";
-        document.getElementById("alert-icon-first-name").style.display = "none";
+        document.getElementById("alert-icon-first-name").style.color = "rgb(255, 255, 255)";
     }
 }
 
@@ -27,11 +27,11 @@ function validateLastName() {
     if (lastName.value == "") {
         lastName.style.border = "2px solid hsl(0, 59%, 64%)";
         document.getElementById('error-last-name').style.display = "block";
-        document.getElementById("alert-icon-last-name").style.display = "block";
+        document.getElementById("alert-icon-last-name").style.color = "hsl(0, 100%, 74%)";
     } else {
         lastName.style.border = "1px solid hsl(246, 25%, 77%)";
         document.getElementById('error-last-name').style.display = "none";
-        document.getElementById("alert-icon-last-name").style.display = "none";
+        document.getElementById("alert-icon-last-name").style.color = "rgb(255, 255, 255)";
     }
 }
 
@@ -41,12 +41,12 @@ function validateEmail() {
         email.style.border = "2px solid hsl(0, 59%, 64%)";
         email.placeholder = 'email@example.com';
         document.getElementById('error-email').style.display = "block";
-        document.getElementById("alert-icon-email").style.display = "block";
+        document.getElementById("alert-icon-email").style.color = "hsl(0, 100%, 74%)";
     } else {
         email.style.border = "1px solid hsl(246, 25%, 77%)";
         email.placeholder = 'Email Address';
         document.getElementById('error-email').style.display = "none";
-        document.getElementById("alert-icon-email").style.display = "none";
+        document.getElementById("alert-icon-email").style.color = "rgb(255, 255, 255)";
     }
 }
 
@@ -60,11 +60,11 @@ function validatePassword() {
     if (password.value == "") {
         password.style.border = "2px solid hsl(0, 59%, 64%)";
         document.getElementById('error-password').style.display = "block";
-        document.getElementById("alert-icon-password").style.display = "block";
+        document.getElementById("alert-icon-password").style.color = "hsl(0, 100%, 74%)";
     } else {
         password.style.border = "1px solid hsl(246, 25%, 77%)";
         document.getElementById('error-password').style.display = "none";
-        document.getElementById("alert-icon-password").style.display = "none";
+        document.getElementById("alert-icon-password").style.color = "rgb(255, 255, 255)";
     }
 }
 

@@ -50,8 +50,6 @@ main {
     font-size: 1.0em;
 }
 
-
-
 form {
     width: 440px;
     border-radius: 10px;
@@ -72,7 +70,7 @@ input {
     width: 410px;
     border-radius: 5px;
     border: 1px solid hsl(246, 25%, 77%);
-    margin-top: 25px;
+    margin: 0px 0px 0px;
     padding-left: 25px;
     font-weight: bold;
     color: hsl(249, 10%, 26%);
@@ -80,12 +78,11 @@ input {
 
 .fa-solid { 
     width: 50px;
-    display: none; 
     position: relative;
     margin: 0 auto;
-    right: -8.5em;
-    bottom: -65px;
-    color: hsl(0, 48%, 6%);
+    left: 16.5em;
+    bottom: -1.8em;
+    color: rgb(255, 255, 255);
     font-size: 1.5em;
 }
 
@@ -93,7 +90,7 @@ input {
     display: none;
     width: 430px;
     color: hsl(0, 100%, 74%);
-    margin-top: 5px;
+    margin: 5px 0px 0px;
     font-size: 0.7em;
     font-style: italic;
     text-align: right;
