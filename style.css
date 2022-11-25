@@ -41,7 +41,7 @@ main {
 
 .button-purple {
     height: 50px;
-    width: 540px;
+    max-width: 540px;
     background: hsl(248, 32%, 49%);
     border-radius: 10px;
     border: none;
@@ -161,4 +161,65 @@ footer {
         justify-content: center;
         width: 100vw;
     }
+}
+
+@media screen and (max-width: 380px) {
+    .body {
+        background: url(./images/bg-intro-mobile.png)hsl(0, 100%, 74%);
+        max-width: 375px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin: 100px 10px 0px;
+        text-align: center;
+    }
+
+    h2 {
+        margin: 25px 30px 0px;
+        text-align: center;
+    }
+
+    main {
+        margin: 0 auto;
+    }
+
+    .button-purple {
+        height: 80px;
+        width: 330px;
+        margin: 50px 0px 30px;
+        padding: 0px 50px;
+    }
+
+    form {
+        width: 330px;
+        margin: 0px 0px;
+        justify-content: center;
+        padding: 0px 0px;
+    }
+
+    input {
+        width: 266px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .fa-solid {
+        width: 266px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .error {
+        width: 266px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .button-green {
+        width: 266px;
+        margin: 0px 30px;
+        padding: 0px 0px;
+    }
+
 }
