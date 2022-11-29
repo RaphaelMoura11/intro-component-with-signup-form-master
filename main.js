@@ -18,7 +18,7 @@ function validateFirstName() {
     } else {
         firstName.style.border = "1px solid hsl(246, 25%, 77%)";
         document.getElementById('error-first-name').style.display = "none";
-        document.getElementById("alert-icon-first-name").style.color = "rgb(255, 255, 255)";
+        document.getElementById("alert-icon-first-name").style.color = "rgba(0, 0, 0, 0)";
     }
 }
 
@@ -31,7 +31,7 @@ function validateLastName() {
     } else {
         lastName.style.border = "1px solid hsl(246, 25%, 77%)";
         document.getElementById('error-last-name').style.display = "none";
-        document.getElementById("alert-icon-last-name").style.color = "rgb(255, 255, 255)";
+        document.getElementById("alert-icon-last-name").style.color = "rgba(0, 0, 0, 0)";
     }
 }
 
@@ -46,7 +46,7 @@ function validateEmail() {
         email.style.border = "1px solid hsl(246, 25%, 77%)";
         email.placeholder = 'Email Address';
         document.getElementById('error-email').style.display = "none";
-        document.getElementById("alert-icon-email").style.color = "rgb(255, 255, 255)";
+        document.getElementById("alert-icon-email").style.color = "rgba(0, 0, 0, 0)";
     }
 }
 
@@ -64,7 +64,7 @@ function validatePassword() {
     } else {
         password.style.border = "1px solid hsl(246, 25%, 77%)";
         document.getElementById('error-password').style.display = "none";
-        document.getElementById("alert-icon-password").style.color = "rgb(255, 255, 255)";
+        document.getElementById("alert-icon-password").style.color = "rgba(0, 0, 0, 0)";
     }
 }
 

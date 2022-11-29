@@ -22,12 +22,12 @@ article {
 
 h1 {
     font-size: 3.0em;
-    margin: 285px 50px 0px 150px;
+    margin: 285px 50px 0px 3em;
 }
 
 h2 {
     font-size: 1.0em;
-    margin: 10px 60px 0px 150px;
+    margin: 10px 60px 0px 9em;
     font-weight: normal;
 }
 
@@ -70,7 +70,7 @@ input {
     width: 410px;
     border-radius: 5px;
     border: 1px solid hsl(246, 25%, 77%);
-    margin: 0px 0px 0px;
+    margin: 0 auto;
     padding-left: 25px;
     font-weight: bold;
     color: hsl(249, 10%, 26%);
@@ -82,7 +82,7 @@ input {
     margin: 0 auto;
     left: 16.5em;
     bottom: -1.8em;
-    color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0);
     font-size: 1.5em;
 }
 
@@ -151,12 +151,11 @@ footer {
 }
 
     h1 {
-        margin: 0 0 1em;
+        margin-top: 10px;
         text-align: center;
     }
 
     h2 {
-        margin: 0;
         text-align: center;
     }
 
@@ -172,6 +171,15 @@ footer {
         width: 540px;
         
     }
+
+    footer {
+        max-width: 800px;
+    }
+
+    .attribution{
+        text-align: center;
+        margin: 20px auto;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -180,9 +188,14 @@ footer {
         max-width: 375px;
     }
 
+    article {
+        width: 375px;
+        margin-top: 2em;
+    }
+
     h1 {
         font-size: 1.8em;
-        margin: 100px 10px 0px;
+        margin: 20px 10px 0px;
         text-align: center;
     }
 
@@ -193,44 +206,58 @@ footer {
 
     main {
         margin: 0 auto;
+        width: 375px;
     }
 
     .button-purple {
         height: 80px;
         width: 330px;
-        margin: 50px 0px 30px;
+        margin: 0px 0px 30px;
         padding: 0px 50px;
     }
 
     form {
         width: 330px;
-        margin: 0px 0px;
+        margin: 0 auto;
         justify-content: center;
         padding: 0px 0px;
     }
 
     input {
-        width: 266px;
+        width: 226px;
         margin: 0px 30px;
-        padding: 0px 0px;
+        padding: 0px 20px;
     }
 
     .fa-solid {
-        width: 266px;
-        margin: 0px 0px;
-        padding: 0px 0px;
+        margin: 0 auto;
+        padding: 0 auto;
+        left: 11em;
     }
 
     .error {
         width: 266px;
         margin: 0px 30px;
-        padding: 0px 0px;
+        padding: 0 auto;
     }
 
     .button-green {
         width: 266px;
-        margin: 0px 30px;
+        margin-left: 30px;
         padding: 0px 0px;
+    }
+
+    form>p {
+        margin: 15px 40px;
+    }
+
+    footer {
+        margin: 20px auto;
+        width: 375px;
+    }
+
+    .attribution {
+        font-size: 0.6em;
     }
 
 }
