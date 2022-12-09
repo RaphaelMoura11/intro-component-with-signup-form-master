@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(./images/bg-intro-desktop.png)hsl(0, 14%, 11%);
+    background: url(./images/bg-intro-desktop.png)hsl(0, 100%, 74%);
     max-width: 1440px;
     height: 800px;
     margin: 0 auto;
