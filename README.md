@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Design Desktop](./images/design-finalizado/desktop.png)
-![Design Mobile](./images/design-finalizado/mobile.png)
+!Design Desktop[Design Desktop](./images/design-finalizado/desktop.png)
+!Design Mobile[Design Mobile](./images/design-finalizado/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-IURHd6WHei)
+- Live Site URL: [Add live site URL here](https://intro-component-with-signup-form-master-hx2vuhlqg.vercel.app)
 
 ## My process
   - In this project, alert icons were used. With that I had difficulty in the responsiveness and positioning of the elements. At the end of the project I managed to solve my problem with the positioning of the alerts.
