@@ -133,8 +133,6 @@ footer {
     color: hsl(228, 45%, 44%);
 }
 
-
-
 @media screen and (max-width: 1025px) {
     body {
         height: 1000px;
@@ -257,5 +255,4 @@ footer {
     .attribution {
         font-size: 0.6em;
     }
-
 }

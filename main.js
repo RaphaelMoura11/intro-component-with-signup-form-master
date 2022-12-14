@@ -71,5 +71,3 @@ function validatePassword() {
         document.getElementById("alert-icon-password").style.color = "rgba(0, 0, 0, 0)";
     }
 }
-
-
