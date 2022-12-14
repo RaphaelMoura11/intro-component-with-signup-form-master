@@ -32,8 +32,8 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://intro-component-with-signup-form-master-hx2vuhlqg.vercel.app)
 
 ## My process
-  - In this project, alert icons were used. With that I had difficulty in the responsiveness and positioning of the elements. At the end of the project I managed to solve my problem with the positioning of the alerts.
-  - Obs: I could not change the color of the placehoder of the input email to red when there is an error.
+  - In this project, `alert icons` were used. With that I had difficulty in the responsiveness and positioning of the elements. At the end of the project I managed to solve my problem with the positioning of the alerts.
+  - Obs: I could not change the color of the `placehoder` of the `input` email to red when there is an error.
 
 ### Built with
 
